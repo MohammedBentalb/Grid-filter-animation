@@ -1,11 +1,13 @@
-import './App.css';
-
-function App() {
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import NotFound from './Components/NotFound';
+export default function App() {
   return (
-    <>
-      <h1 className="font-bold text-red-600">hello</h1>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/Grid-filter-animation/" index element={<Home />} />
+        <Route path="/*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;
