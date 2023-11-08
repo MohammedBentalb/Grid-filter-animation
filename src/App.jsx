@@ -6,7 +6,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/Grid-filter-animation/" index element={<Home />} />
-        <Route path="/*" element={<NotFound />} />
+        <Route path="/Grid-filter-animation/*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
