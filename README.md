@@ -1,8 +1,16 @@
-# React + Vite
+# `Warning !!!`
+## The API provides all kinds of film titles including adult films, consider that before searching for a title 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Simple Grid Animation
 
-Currently, two official plugins are available:
+### react + framer-motion
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ I tried to make some animation for the behavior of grid and flex using either pure css or framer-motion. Yet, both were pretty hard since the grid has some weird behaviors so i stuck with some basic ones using just **Layout** and regular animation of opacity.
+ ## Preview : 
+
+ - [From Here](https://mohammedbentalb.github.io/Grid-filter-animation/?page=5)
+
+## Tech :
+- `react` : to have a quick setup. 
+- `react-query` : i used it just for the sake of cashing  (`you could use swr for that`).
+- `tailwind`: i used regular css for setting the grid and tailwind for styling other things.
